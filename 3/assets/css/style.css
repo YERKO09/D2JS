@@ -58,3 +58,24 @@ button:hover{
     color: white;
     cursor: pointer;
 }
+
+.inicio{
+    padding: 1.2rem 3rem;
+    background-color: transparent;
+    border: solid 1px white;
+    position: absolute;
+    top: 0;
+    left: 1px;
+}
+
+.inicio:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+a{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
