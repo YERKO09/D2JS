@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,157,41,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+img{
+    width: 500px;
+    border-radius: 10px;
+    transition: 2s ease;
+}
+
+img:hover{
+    cursor: pointer;
+    width: 600px;
+}
